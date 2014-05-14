@@ -7,6 +7,7 @@ Exaple of usage:
 
 Создаем структуру таблиц:
 
+```php
 	$T["pack"] = array(
 	    "table" => "pack",
 	    "key" => "id",
@@ -21,6 +22,7 @@ Exaple of usage:
 	        "is_full" => "int"
 	    )
 	);
+```
 
 Инициализируем коннект к БД и "скармливаем БД"
 
